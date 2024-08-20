@@ -18,7 +18,7 @@ export default defineConfig({
   title: false,
   ignoreMomentLocale: true,
   locale: {
-    default: 'zh-CN',
+    default: 'vi-VN',
     antd: false,
     title: false,
     baseNavigator: false,
