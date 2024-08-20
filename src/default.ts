@@ -35,7 +35,7 @@ export const version = window.settings?.version
 export const isStandAlone = version === undefined
 export const isProduction = process.env.NODE_ENV === 'production'
 
-export const currencyFormatter = new Intl.NumberFormat('zh-CN', {
+export const currencyFormatter = new Intl.NumberFormat('vi-VN', {
   style: 'currency',
-  currency: 'CNY',
+  currency: 'VND',
 })
