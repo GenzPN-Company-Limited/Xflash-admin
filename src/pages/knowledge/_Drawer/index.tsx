@@ -106,11 +106,14 @@ const DrawerKnowledge: FC<drawerKnowledgeProps> = (props) => {
               setLanguage(value)
             }}
           >
-            <Option value="zh-CN" key="zh-CN">
-              {intl.formatMessage({ id: 'module.knowledge.language.option.chinese' })}
+            <Option value="vi-VN" key="vi-VN">
+              {intl.formatMessage({ id: 'module.knowledge.language.option.vietnamese' })}
             </Option>
             <Option value="en-US" key="en-US">
               {intl.formatMessage({ id: 'module.knowledge.language.option.english' })}
+            </Option>
+            <Option value="zh-CN" key="zh-CN">
+              {intl.formatMessage({ id: 'module.knowledge.language.option.chinese' })}
             </Option>
           </Select>
         </div>
