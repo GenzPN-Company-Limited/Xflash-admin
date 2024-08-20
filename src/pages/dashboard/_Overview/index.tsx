@@ -30,7 +30,7 @@ const Overview: FC = () => {
               <p className="display-4 text-black font-w300 mb-2">
                 {adminStat?.data.day_income !== undefined &&
                   currencyFormatter.format((adminStat?.data.day_income as number) / 100)}
-                <span className="font-size-h5 font-w600 text-muted">CNY</span>
+                <span className="font-size-h5 font-w600 text-muted">VNĐ</span>
               </p>
               <Space>
                 {intl.formatMessage({ id: 'module.dashboard.month_income' })}
